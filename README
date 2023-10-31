@@ -1,1 +1,3 @@
 Repository to house code demonstrating a typical RNA-Seq analysis
+
+Note: fastq and bam files have been excluded because they are too large
