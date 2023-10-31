@@ -1,0 +1,10 @@
+{
+    "salmon_version": "1.10.2",
+    "geneMap": "/gpfs/projects/GenomicsCore/indexes/mouse_gencode_m29/gencode.vM29.annotation.gtf",
+    "threads": "12",
+    "libType": "A",
+    "targets": "/gpfs/projects/GenomicsCore/indexes/mouse_gencode_m29/genome.transcripts.fa",
+    "alignments": "alignments/SRX1741370_SRR3473984Aligned.toTranscriptome.out.bam",
+    "output": "quant/SRX1741370_SRR3473984",
+    "auxDir": "aux_info"
+}

@@ -1,0 +1,55 @@
+[2023-10-30 14:50:09.636] [jointLog] [info] setting maxHashResizeThreads to 12
+[2023-10-30 14:50:09.636] [jointLog] [info] Fragment incompatibility prior below threshold.  Incompatible fragments will be ignored.
+[2023-10-30 14:50:09.736] [jointLog] [info] numQuantThreads = 6
+[2023-10-30 14:50:11.426] [jointLog] [info] replaced 0 non-ACGT nucleotides with random nucleotides
+[2023-10-30 14:50:11.581] [fileLog] [info] quantification processed 0 fragments so far
+
+[2023-10-30 14:50:11.734] [jointLog] [info] Automatically detected most likely library type as IU
+
+[2023-10-30 14:50:12.755] [fileLog] [info] quantification processed 1000000 fragments so far
+
+[2023-10-30 14:50:14.079] [fileLog] [info] quantification processed 2000000 fragments so far
+
+[2023-10-30 14:50:14.170] [fileLog] [info] quantification processed 2068096 fragments so far
+
+[2023-10-30 14:50:33.894] [jointLog] [info] Thread saw mini-batch with a maximum of 0.10% zero probability fragments
+[2023-10-30 14:50:33.895] [jointLog] [info] Thread saw mini-batch with a maximum of 0.10% zero probability fragments
+[2023-10-30 14:50:33.918] [jointLog] [info] Thread saw mini-batch with a maximum of 0.10% zero probability fragments
+[2023-10-30 14:50:33.922] [jointLog] [info] Thread saw mini-batch with a maximum of 0.10% zero probability fragments
+[2023-10-30 14:50:33.927] [jointLog] [info] Thread saw mini-batch with a maximum of 0.10% zero probability fragments
+[2023-10-30 14:50:33.927] [jointLog] [info] Thread saw mini-batch with a maximum of 0.10% zero probability fragments
+[2023-10-30 14:50:33.928] [jointLog] [info] 
+
+
+Completed first pass through the alignment file.
+Total # of mapped reads : 2068096
+# of uniquely mapped reads : 855245
+# ambiguously mapped reads : 1212851
+
+
+
+[2023-10-30 14:50:34.031] [jointLog] [info] Computed 135,418 rich equivalence classes for further processing
+[2023-10-30 14:50:34.031] [jointLog] [info] Counted 2,068,070 total reads in the equivalence classes 
+[2023-10-30 14:50:34.053] [jointLog] [warning] Only 2068096 fragments were mapped, but the number of burn-in fragments was set to 5000000.
+The effective lengths have been computed using the observed mappings.
+
+[2023-10-30 14:50:34.054] [jointLog] [info] starting optimizer
+[2023-10-30 14:50:34.101] [jointLog] [info] Marked 0 weighted equivalence classes as degenerate
+[2023-10-30 14:50:34.105] [jointLog] [info] iteration = 0 | max rel diff. = 1337.15
+[2023-10-30 14:50:34.489] [jointLog] [info] iteration = 100 | max rel diff. = 14.424
+[2023-10-30 14:50:34.887] [jointLog] [info] iteration = 200 | max rel diff. = 4.11057
+[2023-10-30 14:50:35.303] [jointLog] [info] iteration = 300 | max rel diff. = 6.57178
+[2023-10-30 14:50:35.723] [jointLog] [info] iteration = 400 | max rel diff. = 1.68783
+[2023-10-30 14:50:36.153] [jointLog] [info] iteration = 500 | max rel diff. = 0.0850513
+[2023-10-30 14:50:36.570] [jointLog] [info] iteration = 600 | max rel diff. = 1.43772
+[2023-10-30 14:50:36.987] [jointLog] [info] iteration = 700 | max rel diff. = 0.269927
+[2023-10-30 14:50:37.412] [jointLog] [info] iteration = 800 | max rel diff. = 0.0255886
+[2023-10-30 14:50:37.848] [jointLog] [info] iteration = 900 | max rel diff. = 0.393156
+[2023-10-30 14:50:38.149] [jointLog] [info] iteration = 970 | max rel diff. = 0.00427844
+[2023-10-30 14:50:38.156] [jointLog] [info] finished optimizer
+[2023-10-30 14:50:38.156] [jointLog] [info] writing output
+[2023-10-30 14:50:39.325] [jointLog] [info] Computing gene-level abundance estimates
+[2023-10-30 14:50:57.960] [jointLog] [info] There were 142379 transcripts mapping to 55357 genes
+[2023-10-30 14:50:57.960] [jointLog] [info] NOTE: We recommend using tximport (https://bioconductor.org/packages/release/bioc/html/tximport.html) for aggregating transcript-level salmon abundance estimates to the gene level.  It is more versatile, exposes more features, and allows considering multi-sample information during aggregation.
+[2023-10-30 14:50:58.129] [jointLog] [info] Aggregating expressions to gene level
+[2023-10-30 14:50:58.222] [jointLog] [info] done
