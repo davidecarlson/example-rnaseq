@@ -5,9 +5,9 @@ library(GenomicFeatures)
 library(EnhancedVolcano)
 
 # read input files into memory
-samples <- read.table('/gpfs/projects/GenomicsCore/BGE510/samples.csv', header=TRUE, sep=",")
+samples <- read.table('/gpfs/projects/GenomicsCore/RNAseq-tutorial/samples.csv', header=TRUE, sep=",")
 gtf <- '/gpfs/projects/GenomicsCore/indexes/mouse_gencode_m29/gencode.vM29.annotation.gtf'
-files <- file.path('/gpfs/projects/GenomicsCore/BGE510/quant', samples$Sample, "quant.sf")
+files <- file.path('/gpfs/projects/GenomicsCore/RNAseq-tutorial/quant', samples$Sample, "quant.sf")
 
 names(files) <- samples$Sample
 
@@ -33,10 +33,10 @@ ddsTxi <- ddsTxi[keep,]
 ddsTxi <- DESeq(ddsTxi)
 
 # get the results and specify the contrast of interest
-res <- results(ddsTxi, contrast=c("Condition","KO","WT"))
+res <- results(ddsTxi, contrast=c("Condition","HNF1b","WT"))
 
 # shrink the LFC estimates
-resLFC <- lfcShrink(ddsTxi, coef="Condition_WT_vs_KO", type="apeglm")
+resLFC <- lfcShrink(ddsTxi, coef="Condition_WT_vs_HNF1b", type="apeglm")
 
 #sort the results by p-value
 resOrdered <- resLFC[order(resLFC$pvalue),]
@@ -60,7 +60,7 @@ print(summary(resOrdered))
 
 #write the results to a csv file
 write.csv(as.data.frame(resOrdered), 
-          file="/gpfs/projects/GenomicsCore/BGE510/DGE_results/WT_vs_KO_results.csv")
+          file="/gpfs/projects/GenomicsCore/RNAseq-tutorial/DGE_results/WT_vs_HNF1b_results.csv")
 
 #make volcano plot
 volc<-EnhancedVolcano(resOrdered,
@@ -70,8 +70,10 @@ volc<-EnhancedVolcano(resOrdered,
 
 # save volcano plot to a pdf
 
-ggsave('WT_vs_KO_volcanoplot.pdf', 
+ggsave('WT_vs_HNF1b_volcanoplot.pdf', 
        plot = volc, 
        device = 'pdf', 
-       path = '/gpfs/projects/GenomicsCore/BGE510/DGE_results/')
-
+       width = 20, 
+       height = 30, 
+       units = 'cm',
+       path = '/gpfs/projects/GenomicsCore/RNAseq-tutorial/DGE_results/')
