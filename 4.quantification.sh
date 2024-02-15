@@ -1,8 +1,7 @@
 #!/usr/bin/env bash
 
-module load rna_seq/1.0
+module load deseq2
 
-BAM=alignments
 GTF=/gpfs/projects/GenomicsCore/indexes/mouse_gencode_m29/gencode.vM29.annotation.gtf
 TRANSCRIPTOME=/gpfs/projects/GenomicsCore/indexes/mouse_gencode_m29/genome.transcripts.fa
 OUTDIR=quant
@@ -15,8 +14,10 @@ for i in `ls alignments/*toTranscriptome.out.bam`; do
 	salmon \
 	quant \
 	--geneMap ${GTF} \
-	--threads 12 \
+	--threads 25 \
 	--libType A \
+	--seqBias \
+	--gcBias \
 	-t ${TRANSCRIPTOME} \
 	-a ${i} \
 	-o ${OUTDIR}/${NAME};

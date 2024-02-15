@@ -2,14 +2,14 @@
 
 #subsample reads to keep only 10% per sample
 
-READDIR=/gpfs/projects/GenomicsCore/BGE510/reads
+READDIR=/gpfs/projects/GenomicsCore/RNAseq-tutorial/subsample
 OUTDIR=QC
 
 mkdir -p ${OUTDIR}
 
 module load hts/1.0
 
-for i in `ls ${READDIR}/*_1.fastq.gz`; do
+for i in `ls ${READDIR}/*_subsample_1.fastq.gz`; do
 	NAME=`basename $i _subsample_1.fastq.gz`;
 	echo doing QC for sample: $NAME;
 	fastp \
