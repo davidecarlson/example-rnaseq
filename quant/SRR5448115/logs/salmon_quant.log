@@ -1,97 +1,95 @@
-[2024-02-15 14:57:24.530] [jointLog] [info] setting maxHashResizeThreads to 25
-[2024-02-15 14:57:24.530] [jointLog] [info] Fragment incompatibility prior below threshold.  Incompatible fragments will be ignored.
-[2024-02-15 14:57:24.636] [jointLog] [info] numQuantThreads = 19
-[2024-02-15 14:57:26.832] [jointLog] [info] replaced 0 non-ACGT nucleotides with random nucleotides
-[2024-02-15 14:57:27.019] [jointLog] [info] Automatically detected most likely library type as IU
+[2024-11-21 11:06:52.821] [jointLog] [info] setting maxHashResizeThreads to 25
+[2024-11-21 11:06:52.821] [jointLog] [info] Fragment incompatibility prior below threshold.  Incompatible fragments will be ignored.
+[2024-11-21 11:06:52.938] [jointLog] [info] numQuantThreads = 19
+[2024-11-21 11:06:55.331] [fileLog] [info] quantification processed 0 fragments so far
 
-[2024-02-15 14:57:26.995] [fileLog] [info] quantification processed 0 fragments so far
+[2024-11-21 11:06:55.171] [jointLog] [info] replaced 0 non-ACGT nucleotides with random nucleotides
+[2024-11-21 11:06:55.360] [jointLog] [info] Automatically detected most likely library type as IU
 
-[2024-02-15 14:57:27.949] [fileLog] [info] quantification processed 1000000 fragments so far
+[2024-11-21 11:06:56.964] [fileLog] [info] quantification processed 1000000 fragments so far
 
-[2024-02-15 14:57:29.046] [fileLog] [info] quantification processed 2000000 fragments so far
+[2024-11-21 11:06:58.343] [fileLog] [info] quantification processed 2000000 fragments so far
 
-[2024-02-15 14:57:30.512] [fileLog] [info] quantification processed 3000000 fragments so far
+[2024-11-21 11:06:59.703] [fileLog] [info] quantification processed 3000000 fragments so far
 
-[2024-02-15 14:57:30.766] [jointLog] [info] 
+[2024-11-21 11:06:59.967] [jointLog] [info] 
 
-The alignment group queue pool has been exhausted.  3836085 extra fragments were allocated on the heap to saturate the pool.  No new fragments will be allocated
+The alignment group queue pool has been exhausted.  3835689 extra fragments were allocated on the heap to saturate the pool.  No new fragments will be allocated
 
 
-[2024-02-15 14:57:34.207] [fileLog] [info] quantification processed 4000000 fragments so far
+[2024-11-21 11:07:02.906] [fileLog] [info] quantification processed 4000000 fragments so far
 
-[2024-02-15 14:57:35.136] [fileLog] [info] quantification processed 4222871 fragments so far
+[2024-11-21 11:07:03.693] [fileLog] [info] quantification processed 4222871 fragments so far
 
-[2024-02-15 14:57:43.410] [jointLog] [info] Thread saw mini-batch with a maximum of 0.20% zero probability fragments
-[2024-02-15 14:57:43.412] [jointLog] [info] Thread saw mini-batch with a maximum of 0.10% zero probability fragments
-[2024-02-15 14:57:43.413] [jointLog] [info] Thread saw mini-batch with a maximum of 0.10% zero probability fragments
-[2024-02-15 14:57:43.419] [jointLog] [info] Thread saw mini-batch with a maximum of 0.10% zero probability fragments
-[2024-02-15 14:57:43.426] [jointLog] [info] Thread saw mini-batch with a maximum of 0.10% zero probability fragments
-[2024-02-15 14:57:43.430] [jointLog] [info] Thread saw mini-batch with a maximum of 0.10% zero probability fragments
-[2024-02-15 14:57:43.431] [jointLog] [info] Thread saw mini-batch with a maximum of 0.10% zero probability fragments
-[2024-02-15 14:57:43.431] [jointLog] [info] Thread saw mini-batch with a maximum of 0.10% zero probability fragments
-[2024-02-15 14:57:43.432] [jointLog] [info] Thread saw mini-batch with a maximum of 0.10% zero probability fragments
-[2024-02-15 14:57:43.434] [jointLog] [info] Thread saw mini-batch with a maximum of 0.10% zero probability fragments
-[2024-02-15 14:57:43.436] [jointLog] [info] Thread saw mini-batch with a maximum of 0.10% zero probability fragments
-[2024-02-15 14:57:43.438] [jointLog] [info] Thread saw mini-batch with a maximum of 0.10% zero probability fragments
-[2024-02-15 14:57:43.439] [jointLog] [info] Thread saw mini-batch with a maximum of 0.10% zero probability fragments
-[2024-02-15 14:57:43.439] [jointLog] [info] Thread saw mini-batch with a maximum of 0.20% zero probability fragments
-[2024-02-15 14:57:43.447] [jointLog] [info] Thread saw mini-batch with a maximum of 0.10% zero probability fragments
-[2024-02-15 14:57:43.449] [jointLog] [info] Thread saw mini-batch with a maximum of 0.10% zero probability fragments
-[2024-02-15 14:57:43.452] [jointLog] [info] Thread saw mini-batch with a maximum of 0.10% zero probability fragments
-[2024-02-15 14:57:43.454] [jointLog] [info] Thread saw mini-batch with a maximum of 0.10% zero probability fragments
-[2024-02-15 14:57:43.456] [jointLog] [info] Thread saw mini-batch with a maximum of 0.20% zero probability fragments
-[2024-02-15 14:57:43.457] [jointLog] [info] 
+[2024-11-21 11:07:10.583] [jointLog] [info] Thread saw mini-batch with a maximum of 0.10% zero probability fragments
+[2024-11-21 11:07:10.586] [jointLog] [info] Thread saw mini-batch with a maximum of 0.10% zero probability fragments
+[2024-11-21 11:07:10.590] [jointLog] [info] Thread saw mini-batch with a maximum of 0.10% zero probability fragments
+[2024-11-21 11:07:10.593] [jointLog] [info] Thread saw mini-batch with a maximum of 0.10% zero probability fragments
+[2024-11-21 11:07:10.594] [jointLog] [info] Thread saw mini-batch with a maximum of 0.10% zero probability fragments
+[2024-11-21 11:07:10.594] [jointLog] [info] Thread saw mini-batch with a maximum of 0.20% zero probability fragments
+[2024-11-21 11:07:10.597] [jointLog] [info] Thread saw mini-batch with a maximum of 0.20% zero probability fragments
+[2024-11-21 11:07:10.597] [jointLog] [info] Thread saw mini-batch with a maximum of 0.20% zero probability fragments
+[2024-11-21 11:07:10.602] [jointLog] [info] Thread saw mini-batch with a maximum of 0.10% zero probability fragments
+[2024-11-21 11:07:10.618] [jointLog] [info] Thread saw mini-batch with a maximum of 0.20% zero probability fragments
+[2024-11-21 11:07:10.620] [jointLog] [info] Thread saw mini-batch with a maximum of 0.10% zero probability fragments
+[2024-11-21 11:07:10.621] [jointLog] [info] Thread saw mini-batch with a maximum of 0.10% zero probability fragments
+[2024-11-21 11:07:10.624] [jointLog] [info] Thread saw mini-batch with a maximum of 0.10% zero probability fragments
+[2024-11-21 11:07:10.624] [jointLog] [info] Thread saw mini-batch with a maximum of 0.10% zero probability fragments
+[2024-11-21 11:07:10.625] [jointLog] [info] Thread saw mini-batch with a maximum of 0.10% zero probability fragments
+[2024-11-21 11:07:10.628] [jointLog] [info] Thread saw mini-batch with a maximum of 0.10% zero probability fragments
+[2024-11-21 11:07:10.629] [jointLog] [info] Thread saw mini-batch with a maximum of 0.10% zero probability fragments
+[2024-11-21 11:07:10.632] [jointLog] [info] Thread saw mini-batch with a maximum of 0.10% zero probability fragments
+[2024-11-21 11:07:10.634] [jointLog] [info] Thread saw mini-batch with a maximum of 0.10% zero probability fragments
+[2024-11-21 11:07:10.635] [jointLog] [info] 
 
 
 Completed first pass through the alignment file.
 Total # of mapped reads : 4222871
-# of uniquely mapped reads : 1254761
-# ambiguously mapped reads : 2968110
+# of uniquely mapped reads : 1254762
+# ambiguously mapped reads : 2968109
 
 
 
-[2024-02-15 14:57:43.605] [jointLog] [info] Computed 210,395 rich equivalence classes for further processing
-[2024-02-15 14:57:43.605] [jointLog] [info] Counted 4,222,710 total reads in the equivalence classes 
-[2024-02-15 14:57:43.622] [jointLog] [warning] Only 4222871 fragments were mapped, but the number of burn-in fragments was set to 5000000.
+[2024-11-21 11:07:10.740] [jointLog] [info] Computed 210,624 rich equivalence classes for further processing
+[2024-11-21 11:07:10.740] [jointLog] [info] Counted 4,222,710 total reads in the equivalence classes 
+[2024-11-21 11:07:10.752] [jointLog] [warning] Only 4222871 fragments were mapped, but the number of burn-in fragments was set to 5000000.
 The effective lengths have been computed using the observed mappings.
 
-[2024-02-15 14:57:43.623] [jointLog] [info] starting optimizer
-[2024-02-15 14:57:43.707] [jointLog] [info] Marked 0 weighted equivalence classes as degenerate
-[2024-02-15 14:57:43.711] [jointLog] [info] iteration = 0 | max rel diff. = 2668.42
-[2024-02-15 14:57:43.753] [jointLog] [info] iteration 11, adjusting effective lengths to account for biases
-[2024-02-15 14:57:46.315] [jointLog] [info] Computed expected counts (for bias correction)
-[2024-02-15 14:57:46.316] [jointLog] [info] processed bias for 0.2% of the transcripts
-[2024-02-15 14:57:46.598] [jointLog] [info] processed bias for 10.0% of the transcripts
-[2024-02-15 14:57:46.892] [jointLog] [info] processed bias for 20.0% of the transcripts
-[2024-02-15 14:57:47.143] [jointLog] [info] processed bias for 30.0% of the transcripts
-[2024-02-15 14:57:47.449] [jointLog] [info] processed bias for 40.0% of the transcripts
-[2024-02-15 14:57:47.748] [jointLog] [info] processed bias for 50.0% of the transcripts
-[2024-02-15 14:57:48.031] [jointLog] [info] processed bias for 60.0% of the transcripts
-[2024-02-15 14:57:48.290] [jointLog] [info] processed bias for 70.0% of the transcripts
-[2024-02-15 14:57:48.592] [jointLog] [info] processed bias for 80.0% of the transcripts
-[2024-02-15 14:57:48.852] [jointLog] [info] processed bias for 90.0% of the transcripts
-[2024-02-15 14:57:49.157] [jointLog] [info] processed bias for 100.0% of the transcripts
-[2024-02-15 14:57:49.163] [jointLog] [info] processed bias for 100.0% of the transcripts
-[2024-02-15 14:57:49.622] [jointLog] [info] iteration = 100 | max rel diff. = 14.319
-[2024-02-15 14:57:50.118] [jointLog] [info] iteration = 200 | max rel diff. = 13.2929
-[2024-02-15 14:57:50.612] [jointLog] [info] iteration = 300 | max rel diff. = 8.55298
-[2024-02-15 14:57:51.105] [jointLog] [info] iteration = 400 | max rel diff. = 0.800844
-[2024-02-15 14:57:51.597] [jointLog] [info] iteration = 500 | max rel diff. = 1.39268
-[2024-02-15 14:57:52.089] [jointLog] [info] iteration = 600 | max rel diff. = 1.33468
-[2024-02-15 14:57:52.583] [jointLog] [info] iteration = 700 | max rel diff. = 0.0546536
-[2024-02-15 14:57:53.077] [jointLog] [info] iteration = 800 | max rel diff. = 1.36397
-[2024-02-15 14:57:53.571] [jointLog] [info] iteration = 900 | max rel diff. = 0.0740207
-[2024-02-15 14:57:54.064] [jointLog] [info] iteration = 1,000 | max rel diff. = 0.100337
-[2024-02-15 14:57:54.557] [jointLog] [info] iteration = 1,100 | max rel diff. = 0.25026
-[2024-02-15 14:57:55.050] [jointLog] [info] iteration = 1,200 | max rel diff. = 0.115026
-[2024-02-15 14:57:55.542] [jointLog] [info] iteration = 1,300 | max rel diff. = 0.016979
-[2024-02-15 14:57:56.033] [jointLog] [info] iteration = 1,400 | max rel diff. = 0.0421611
-[2024-02-15 14:57:56.526] [jointLog] [info] iteration = 1,500 | max rel diff. = 0.126386
-[2024-02-15 14:57:56.571] [jointLog] [info] iteration = 1,510 | max rel diff. = 0.00939714
-[2024-02-15 14:57:56.583] [jointLog] [info] finished optimizer
-[2024-02-15 14:57:56.583] [jointLog] [info] writing output
-[2024-02-15 14:57:57.600] [jointLog] [info] Computing gene-level abundance estimates
-[2024-02-15 14:58:16.883] [jointLog] [info] There were 142379 transcripts mapping to 55357 genes
-[2024-02-15 14:58:16.883] [jointLog] [info] NOTE: We recommend using tximport (https://bioconductor.org/packages/release/bioc/html/tximport.html) for aggregating transcript-level salmon abundance estimates to the gene level.  It is more versatile, exposes more features, and allows considering multi-sample information during aggregation.
-[2024-02-15 14:58:17.079] [jointLog] [info] Aggregating expressions to gene level
-[2024-02-15 14:58:17.177] [jointLog] [info] done
+[2024-11-21 11:07:10.752] [jointLog] [info] starting optimizer
+[2024-11-21 11:07:10.809] [jointLog] [info] Marked 0 weighted equivalence classes as degenerate
+[2024-11-21 11:07:10.813] [jointLog] [info] iteration = 0 | max rel diff. = 2634.65
+[2024-11-21 11:07:10.854] [jointLog] [info] iteration 11, adjusting effective lengths to account for biases
+[2024-11-21 11:07:13.422] [jointLog] [info] Computed expected counts (for bias correction)
+[2024-11-21 11:07:13.422] [jointLog] [info] processed bias for 0.1% of the transcripts
+[2024-11-21 11:07:13.714] [jointLog] [info] processed bias for 10.0% of the transcripts
+[2024-11-21 11:07:14.009] [jointLog] [info] processed bias for 20.0% of the transcripts
+[2024-11-21 11:07:14.282] [jointLog] [info] processed bias for 30.0% of the transcripts
+[2024-11-21 11:07:14.539] [jointLog] [info] processed bias for 40.0% of the transcripts
+[2024-11-21 11:07:14.848] [jointLog] [info] processed bias for 50.0% of the transcripts
+[2024-11-21 11:07:15.150] [jointLog] [info] processed bias for 60.0% of the transcripts
+[2024-11-21 11:07:15.434] [jointLog] [info] processed bias for 70.0% of the transcripts
+[2024-11-21 11:07:15.730] [jointLog] [info] processed bias for 80.0% of the transcripts
+[2024-11-21 11:07:16.040] [jointLog] [info] processed bias for 90.0% of the transcripts
+[2024-11-21 11:07:16.395] [jointLog] [info] processed bias for 100.0% of the transcripts
+[2024-11-21 11:07:16.400] [jointLog] [info] processed bias for 100.0% of the transcripts
+[2024-11-21 11:07:16.803] [jointLog] [info] iteration = 100 | max rel diff. = 14.5572
+[2024-11-21 11:07:17.253] [jointLog] [info] iteration = 200 | max rel diff. = 11.5991
+[2024-11-21 11:07:17.709] [jointLog] [info] iteration = 300 | max rel diff. = 1.58948
+[2024-11-21 11:07:18.172] [jointLog] [info] iteration = 400 | max rel diff. = 1.60505
+[2024-11-21 11:07:18.627] [jointLog] [info] iteration = 500 | max rel diff. = 0.140894
+[2024-11-21 11:07:19.084] [jointLog] [info] iteration = 600 | max rel diff. = 0.370631
+[2024-11-21 11:07:19.544] [jointLog] [info] iteration = 700 | max rel diff. = 0.0289045
+[2024-11-21 11:07:20.005] [jointLog] [info] iteration = 800 | max rel diff. = 0.0485682
+[2024-11-21 11:07:20.463] [jointLog] [info] iteration = 900 | max rel diff. = 0.11929
+[2024-11-21 11:07:20.913] [jointLog] [info] iteration = 1,000 | max rel diff. = 3.94208
+[2024-11-21 11:07:21.365] [jointLog] [info] iteration = 1,100 | max rel diff. = 0.0153939
+[2024-11-21 11:07:21.821] [jointLog] [info] iteration = 1,200 | max rel diff. = 0.0468475
+[2024-11-21 11:07:22.271] [jointLog] [info] iteration = 1,300 | max rel diff. = 0.0129782
+[2024-11-21 11:07:22.631] [jointLog] [info] iteration = 1,380 | max rel diff. = 0.00963336
+[2024-11-21 11:07:22.641] [jointLog] [info] finished optimizer
+[2024-11-21 11:07:22.641] [jointLog] [info] writing output
+[2024-11-21 11:07:23.668] [jointLog] [info] Computing gene-level abundance estimates
+[2024-11-21 11:07:43.397] [jointLog] [info] There were 142379 transcripts mapping to 55357 genes
+[2024-11-21 11:07:43.397] [jointLog] [info] NOTE: We recommend using tximport (https://bioconductor.org/packages/release/bioc/html/tximport.html) for aggregating transcript-level salmon abundance estimates to the gene level.  It is more versatile, exposes more features, and allows considering multi-sample information during aggregation.
+[2024-11-21 11:07:43.582] [jointLog] [info] Aggregating expressions to gene level
+[2024-11-21 11:07:43.678] [jointLog] [info] done

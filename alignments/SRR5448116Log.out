@@ -1,14 +1,14 @@
 STAR version=2.7.11a
 STAR compilation time,server,dir=2023-09-15T02:58:53+0000 :/opt/conda/conda-bld/star_1694746407721/work/source
 ##### Command Line:
-/gpfs/software/Anaconda/envs/rna_seq/bin/STAR-avx2 --runThreadN 20 --genomeDir index --outFileNamePrefix alignments/SRR5448116 --readFilesIn /gpfs/projects/GenomicsCore/RNAseq-tutorial/QC/SRR5448116_trimmed_1.fastq.gz /gpfs/projects/GenomicsCore/RNAseq-tutorial/QC/SRR5448116_trimmed_2.fastq.gz --quantMode TranscriptomeSAM --twopassMode Basic --outSAMtype BAM Unsorted --readFilesCommand zcat --runRNGseed 0 --outFilterMultimapNmax 20 --alignSJDBoverhangMin 1 --outSAMattributes NH HI AS NM MD --quantTranscriptomeBan Singleend --outSAMstrandField intronMotif
+/gpfs/software/Anaconda/envs/rna_seq/bin/STAR-avx2 --runThreadN 20 --genomeDir index --outFileNamePrefix alignments/SRR5448116 --readFilesIn /gpfs/projects/GenomicsCore/BGE510/QC/SRR5448116_trimmed_1.fastq.gz /gpfs/projects/GenomicsCore/BGE510/QC/SRR5448116_trimmed_2.fastq.gz --quantMode TranscriptomeSAM --twopassMode Basic --outSAMtype BAM Unsorted --readFilesCommand zcat --runRNGseed 0 --outFilterMultimapNmax 20 --alignSJDBoverhangMin 1 --outSAMattributes NH HI AS NM MD --quantTranscriptomeBan Singleend --outSAMstrandField intronMotif
 ##### Initial USER parameters from Command Line:
 outFileNamePrefix                 alignments/SRR5448116
 ###### All USER parameters from Command Line:
 runThreadN                    20     ~RE-DEFINED
 genomeDir                     index     ~RE-DEFINED
 outFileNamePrefix             alignments/SRR5448116     ~RE-DEFINED
-readFilesIn                   /gpfs/projects/GenomicsCore/RNAseq-tutorial/QC/SRR5448116_trimmed_1.fastq.gz   /gpfs/projects/GenomicsCore/RNAseq-tutorial/QC/SRR5448116_trimmed_2.fastq.gz        ~RE-DEFINED
+readFilesIn                   /gpfs/projects/GenomicsCore/BGE510/QC/SRR5448116_trimmed_1.fastq.gz   /gpfs/projects/GenomicsCore/BGE510/QC/SRR5448116_trimmed_2.fastq.gz        ~RE-DEFINED
 quantMode                     TranscriptomeSAM        ~RE-DEFINED
 twopassMode                   Basic     ~RE-DEFINED
 outSAMtype                    BAM   Unsorted        ~RE-DEFINED
@@ -25,7 +25,7 @@ outSAMstrandField             intronMotif     ~RE-DEFINED
 runThreadN                        20
 runRNGseed                        0
 genomeDir                         index
-readFilesIn                       /gpfs/projects/GenomicsCore/RNAseq-tutorial/QC/SRR5448116_trimmed_1.fastq.gz   /gpfs/projects/GenomicsCore/RNAseq-tutorial/QC/SRR5448116_trimmed_2.fastq.gz   
+readFilesIn                       /gpfs/projects/GenomicsCore/BGE510/QC/SRR5448116_trimmed_1.fastq.gz   /gpfs/projects/GenomicsCore/BGE510/QC/SRR5448116_trimmed_2.fastq.gz   
 readFilesCommand                  zcat   
 outFileNamePrefix                 alignments/SRR5448116
 outSAMtype                        BAM   Unsorted   
@@ -39,33 +39,33 @@ twopassMode                       Basic
 
 -------------------------------
 ##### Final effective command line:
-/gpfs/software/Anaconda/envs/rna_seq/bin/STAR-avx2   --runThreadN 20   --runRNGseed 0   --genomeDir index   --readFilesIn /gpfs/projects/GenomicsCore/RNAseq-tutorial/QC/SRR5448116_trimmed_1.fastq.gz   /gpfs/projects/GenomicsCore/RNAseq-tutorial/QC/SRR5448116_trimmed_2.fastq.gz      --readFilesCommand zcat      --outFileNamePrefix alignments/SRR5448116   --outSAMtype BAM   Unsorted      --outSAMstrandField intronMotif   --outSAMattributes NH   HI   AS   NM   MD      --outFilterMultimapNmax 20   --alignSJDBoverhangMin 1   --quantMode TranscriptomeSAM      --quantTranscriptomeBan Singleend   --twopassMode Basic
+/gpfs/software/Anaconda/envs/rna_seq/bin/STAR-avx2   --runThreadN 20   --runRNGseed 0   --genomeDir index   --readFilesIn /gpfs/projects/GenomicsCore/BGE510/QC/SRR5448116_trimmed_1.fastq.gz   /gpfs/projects/GenomicsCore/BGE510/QC/SRR5448116_trimmed_2.fastq.gz      --readFilesCommand zcat      --outFileNamePrefix alignments/SRR5448116   --outSAMtype BAM   Unsorted      --outSAMstrandField intronMotif   --outSAMattributes NH   HI   AS   NM   MD      --outFilterMultimapNmax 20   --alignSJDBoverhangMin 1   --quantMode TranscriptomeSAM      --quantTranscriptomeBan Singleend   --twopassMode Basic
 ----------------------------------------
 
 Number of fastq files for each mate = 1
 
    Input read files for mate 1 :
--rw-rw-r-- 1 decarlson GenomicsCore 214171561 Feb 15 14:28 /gpfs/projects/GenomicsCore/RNAseq-tutorial/QC/SRR5448116_trimmed_1.fastq.gz
+-rw-rw-r-- 1 decarlson GenomicsCore 214171561 Nov 21 09:55 /gpfs/projects/GenomicsCore/BGE510/QC/SRR5448116_trimmed_1.fastq.gz
 
    readsCommandsFile:
 exec > "alignments/SRR5448116_STARtmp/tmp.fifo.read1"
 echo FILE 0
-zcat      "/gpfs/projects/GenomicsCore/RNAseq-tutorial/QC/SRR5448116_trimmed_1.fastq.gz"
+zcat      "/gpfs/projects/GenomicsCore/BGE510/QC/SRR5448116_trimmed_1.fastq.gz"
 
 
    Input read files for mate 2 :
--rw-rw-r-- 1 decarlson GenomicsCore 219102507 Feb 15 14:28 /gpfs/projects/GenomicsCore/RNAseq-tutorial/QC/SRR5448116_trimmed_2.fastq.gz
+-rw-rw-r-- 1 decarlson GenomicsCore 219102507 Nov 21 09:55 /gpfs/projects/GenomicsCore/BGE510/QC/SRR5448116_trimmed_2.fastq.gz
 
    readsCommandsFile:
 exec > "alignments/SRR5448116_STARtmp/tmp.fifo.read2"
 echo FILE 0
-zcat      "/gpfs/projects/GenomicsCore/RNAseq-tutorial/QC/SRR5448116_trimmed_2.fastq.gz"
+zcat      "/gpfs/projects/GenomicsCore/BGE510/QC/SRR5448116_trimmed_2.fastq.gz"
 
 WARNING --outSAMstrandField=intronMotif, therefore STAR will output XS attribute
 ParametersSolo: --soloCellFilterType CellRanger2.2 filtering parameters:  3000 0.99 10
 Finished loading and checking parameters
 Reading genome generation parameters:
-### STAR   --runMode genomeGenerate      --runThreadN 10   --genomeDir index   --genomeFastaFiles /gpfs/projects/GenomicsCore/indexes/mouse_gencode_m29/GRCm39.primary_assembly.genome.fa      --sjdbGTFfile /gpfs/projects/GenomicsCore/indexes/mouse_gencode_m29/gencode.vM29.annotation.gtf
+### /gpfs/software/Anaconda/envs/rna_seq/bin/STAR-avx2   --runMode genomeGenerate      --runThreadN 10   --genomeDir index   --genomeFastaFiles /gpfs/projects/GenomicsCore/indexes/mouse_gencode_m29/GRCm39.primary_assembly.genome.fa      --sjdbGTFfile /gpfs/projects/GenomicsCore/indexes/mouse_gencode_m29/gencode.vM29.annotation.gtf
 ### GstrandBit=32
 versionGenome                 2.7.4a     ~RE-DEFINED
 genomeType                    Full     ~RE-DEFINED
@@ -148,7 +148,7 @@ Number of real (reference) chromosomes= 61
 60	MU069434.1	8412	2737831936
 61	MU069435.1	31129	2738094080
 --sjdbOverhang = 100 taken from the generated genome
-Started loading the genome: Thu Feb 15 14:35:45 2024
+Started loading the genome: Thu Nov 21 10:01:18 2024
 
 Genome: size given as a parameter = 2795608260
 SA: size given as a parameter = 22370608940
@@ -162,15 +162,15 @@ Loading Genome ... done! state: good=1 eof=0 fail=0 bad=0; loaded 2795608260 byt
 SA file size: 22370608940 bytes; state: good=1 eof=0 fail=0 bad=0
 Loading SA ... done! state: good=1 eof=0 fail=0 bad=0; loaded 22370608940 bytes
 Loading SAindex ... done: 1565873619 bytes
-Finished loading the genome: Thu Feb 15 14:35:55 2024
+Finished loading the genome: Thu Nov 21 10:01:28 2024
 
 Processing splice junctions database sjdbN=284836,   pGe.sjdbOverhang=100 
 alignIntronMax=alignMatesGapMax=0, the max intron size will be approximately determined by (2^winBinNbits)*winAnchorDistNbins=589824
 Created thread # 1
 Created thread # 2
 Starting to map file # 0
-mate 1:   /gpfs/projects/GenomicsCore/RNAseq-tutorial/QC/SRR5448116_trimmed_1.fastq.gz
-mate 2:   /gpfs/projects/GenomicsCore/RNAseq-tutorial/QC/SRR5448116_trimmed_2.fastq.gz
+mate 1:   /gpfs/projects/GenomicsCore/BGE510/QC/SRR5448116_trimmed_1.fastq.gz
+mate 2:   /gpfs/projects/GenomicsCore/BGE510/QC/SRR5448116_trimmed_2.fastq.gz
 Created thread # 3
 Created thread # 4
 Created thread # 5
@@ -188,31 +188,31 @@ Created thread # 16
 Created thread # 17
 Created thread # 18
 Created thread # 19
-Thread #3 end of input stream, nextChar=-1
-Completed: thread #8
-Completed: thread #7
-Completed: thread #10
-Completed: thread #2
-Completed: thread #9
-Completed: thread #12
+Thread #6 end of input stream, nextChar=-1
 Completed: thread #11
-Completed: thread #13
+Completed: thread #5
+Completed: thread #8
+Completed: thread #3
+Completed: thread #9
 Completed: thread #14
+Completed: thread #10
+Completed: thread #12
+Completed: thread #13
 Completed: thread #15
-Completed: thread #16
 Completed: thread #17
+Completed: thread #16
 Completed: thread #18
 Completed: thread #0
 Completed: thread #19
+Completed: thread #6
+Completed: thread #2
+Completed: thread #7
+Completed: thread #4
 Completed: thread #1
 Joined thread # 1
 Joined thread # 2
-Completed: thread #3
 Joined thread # 3
-Completed: thread #6
-Completed: thread #4
 Joined thread # 4
-Completed: thread #5
 Joined thread # 5
 Joined thread # 6
 Joined thread # 7
@@ -228,9 +228,9 @@ Joined thread # 16
 Joined thread # 17
 Joined thread # 18
 Joined thread # 19
-Feb 15 14:36:08   Loaded database junctions from the generated genome index//sjdbList.out.tab: 284836 total junctions
+Nov 21 10:01:40   Loaded database junctions from the generated genome index//sjdbList.out.tab: 284836 total junctions
 
-Feb 15 14:36:08   Loaded database junctions from the 1st pass file: alignments/SRR5448116_STARpass1//SJ.out.tab: 413060 total junctions
+Nov 21 10:01:40   Loaded database junctions from the 1st pass file: alignments/SRR5448116_STARpass1//SJ.out.tab: 413060 total junctions
 
 WARNING: long repeat for junction # 81168 : chr5 112922393 112922883; left shift = 255; right shift = 69
 WARNING: long repeat for junction # 83526 : chr5 123328298 123329023; left shift = 255; right shift = 19
@@ -240,39 +240,39 @@ WARNING: long repeat for junction # 202242 : chr13 36192501 36373186; left shift
 WARNING: long repeat for junction # 209761 : chr13 119631671 120070727; left shift = 36; right shift = 255
 WARNING: long repeat for junction # 226016 : chr15 75976552 75988902; left shift = 0; right shift = 255
 WARNING: long repeat for junction # 381345 : chr13 119631671 120070727; left shift = 36; right shift = 255
-Feb 15 14:36:09   Finished preparing junctions
-Feb 15 14:36:09 ..... inserting junctions into the genome indices
-Feb 15 14:36:10   Finished SA search: number of new junctions=6482, old junctions=284836
-Feb 15 14:36:11   Finished sorting SA indicesL nInd=2592800
+Nov 21 10:01:41   Finished preparing junctions
+Nov 21 10:01:41 ..... inserting junctions into the genome indices
+Nov 21 10:01:42   Finished SA search: number of new junctions=6482, old junctions=284836
+Nov 21 10:01:43   Finished sorting SA indicesL nInd=2592800
 Genome size with junctions=2796911142  2738356224   58554918
 GstrandBit1=32   GstrandBit=32
-Feb 15 14:37:09   Finished inserting junction indices
-Feb 15 14:37:13   Finished SAi
-Feb 15 14:37:13 ..... finished inserting junctions into genome
+Nov 21 10:02:39   Finished inserting junction indices
+Nov 21 10:02:43   Finished SAi
+Nov 21 10:02:43 ..... finished inserting junctions into genome
 
    Input read files for mate 1 :
--rw-rw-r-- 1 decarlson GenomicsCore 214171561 Feb 15 14:28 /gpfs/projects/GenomicsCore/RNAseq-tutorial/QC/SRR5448116_trimmed_1.fastq.gz
+-rw-rw-r-- 1 decarlson GenomicsCore 214171561 Nov 21 09:55 /gpfs/projects/GenomicsCore/BGE510/QC/SRR5448116_trimmed_1.fastq.gz
 
    readsCommandsFile:
 exec > "alignments/SRR5448116_STARtmp/tmp.fifo.read1"
 echo FILE 0
-zcat      "/gpfs/projects/GenomicsCore/RNAseq-tutorial/QC/SRR5448116_trimmed_1.fastq.gz"
+zcat      "/gpfs/projects/GenomicsCore/BGE510/QC/SRR5448116_trimmed_1.fastq.gz"
 
 
    Input read files for mate 2 :
--rw-rw-r-- 1 decarlson GenomicsCore 219102507 Feb 15 14:28 /gpfs/projects/GenomicsCore/RNAseq-tutorial/QC/SRR5448116_trimmed_2.fastq.gz
+-rw-rw-r-- 1 decarlson GenomicsCore 219102507 Nov 21 09:55 /gpfs/projects/GenomicsCore/BGE510/QC/SRR5448116_trimmed_2.fastq.gz
 
    readsCommandsFile:
 exec > "alignments/SRR5448116_STARtmp/tmp.fifo.read2"
 echo FILE 0
-zcat      "/gpfs/projects/GenomicsCore/RNAseq-tutorial/QC/SRR5448116_trimmed_2.fastq.gz"
+zcat      "/gpfs/projects/GenomicsCore/BGE510/QC/SRR5448116_trimmed_2.fastq.gz"
 
 Loaded transcript database, nTr=142379
 Loaded exon database, nEx=842092
 Created thread # 1
 Starting to map file # 0
-mate 1:   /gpfs/projects/GenomicsCore/RNAseq-tutorial/QC/SRR5448116_trimmed_1.fastq.gz
-mate 2:   /gpfs/projects/GenomicsCore/RNAseq-tutorial/QC/SRR5448116_trimmed_2.fastq.gz
+mate 1:   /gpfs/projects/GenomicsCore/BGE510/QC/SRR5448116_trimmed_1.fastq.gz
+mate 2:   /gpfs/projects/GenomicsCore/BGE510/QC/SRR5448116_trimmed_2.fastq.gz
 Created thread # 2
 Created thread # 3
 Created thread # 4
@@ -291,28 +291,28 @@ Created thread # 16
 Created thread # 17
 Created thread # 18
 Created thread # 19
-Thread #5 end of input stream, nextChar=-1
+Thread #4 end of input stream, nextChar=-1
 Completed: thread #6
 Completed: thread #7
-Completed: thread #10
-Completed: thread #12
-Completed: thread #14
-Completed: thread #13
 Completed: thread #8
-Completed: thread #0
-Completed: thread #15
-Completed: thread #16
-Completed: thread #17
-Completed: thread #1
-Joined thread # 1
 Completed: thread #9
-Completed: thread #19
 Completed: thread #11
+Completed: thread #13
+Completed: thread #12
+Completed: thread #0
+Completed: thread #10
+Completed: thread #14
+Completed: thread #16
+Completed: thread #15
+Completed: thread #19
 Completed: thread #18
+Completed: thread #17
 Completed: thread #5
 Completed: thread #3
-Completed: thread #4
 Completed: thread #2
+Completed: thread #4
+Completed: thread #1
+Joined thread # 1
 Joined thread # 2
 Joined thread # 3
 Joined thread # 4
@@ -331,9 +331,9 @@ Joined thread # 16
 Joined thread # 17
 Joined thread # 18
 Joined thread # 19
-Feb 15 14:37:38 ..... finished mapping
+Nov 21 10:03:08 ..... finished mapping
 RAM after mapping:
-VmPeak:	37630080 kB; VmSize:	37427376 kB; VmHWM:	34567912 kB; VmRSS:	34550732 kB; 
+VmPeak:	37629884 kB; VmSize:	37427316 kB; VmHWM:	34561204 kB; VmRSS:	34544388 kB; 
 RAM after freeing genome index memory:
-VmPeak:	37630080 kB; VmSize:	 9506140 kB; VmHWM:	34567912 kB; VmRSS:	 6824264 kB; 
+VmPeak:	37629884 kB; VmSize:	 9506080 kB; VmHWM:	34561204 kB; VmRSS:	 6818052 kB; 
 ALL DONE!

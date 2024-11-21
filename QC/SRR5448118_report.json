@@ -408,5 +408,5 @@
 		"overrepresented_sequences": {
 		}
 	},
-	"command": "fastp --cut_right --thread 5 -i /gpfs/projects/GenomicsCore/RNAseq-tutorial/subsample/SRR5448118_subsample_1.fastq.gz -I /gpfs/projects/GenomicsCore/RNAseq-tutorial/subsample/SRR5448118_subsample_2.fastq.gz -o QC/SRR5448118_trimmed_1.fastq.gz -O QC/SRR5448118_trimmed_2.fastq.gz --json QC/SRR5448118_report.json --html QC/SRR5448118_report.html "
+	"command": "fastp --cut_right --thread 5 -i /gpfs/projects/GenomicsCore/BGE510/subsample/SRR5448118_subsample_1.fastq.gz -I /gpfs/projects/GenomicsCore/BGE510/subsample/SRR5448118_subsample_2.fastq.gz -o QC/SRR5448118_trimmed_1.fastq.gz -O QC/SRR5448118_trimmed_2.fastq.gz --json QC/SRR5448118_report.json --html QC/SRR5448118_report.html "
 }
