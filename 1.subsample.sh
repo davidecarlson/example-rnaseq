@@ -2,7 +2,7 @@
 
 #subsample reads to keep only 10% per sample
 
-READDIR=/gpfs/projects/GenomicsCore/RNAseq-tutorial/reads
+READDIR=/gpfs/projects/GenomicsCore/BGE510/reads
 OUTDIR=subsample
 
 mkdir -p ${OUTDIR}
