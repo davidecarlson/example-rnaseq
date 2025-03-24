@@ -13,4 +13,4 @@ done
 
 module load pigz
 
-pigz -p 25 reads/*.fastq
+pigz -p 25 ../reads/*.fastq
