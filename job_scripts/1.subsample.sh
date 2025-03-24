@@ -2,7 +2,7 @@
 
 #subsample reads to keep only 1 million PE reads per sample
 
-READDIR=/gpfs/projects/GenomicsCore/BGE510/reads
+READDIR=/gpfs/projects/GenomicsCore/example-rnaseq/reads
 OUTDIR=subsample
 
 mkdir -p ${OUTDIR}
