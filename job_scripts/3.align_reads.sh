@@ -2,7 +2,7 @@
 
 module load rna_seq/1.0
 
-READDIR=/gpfs/projects/GenomicsCore/RNAseq-tutorial/QC
+READDIR=/gpfs/projects/GenomicsCore/BGE510/QC
 INDEX=index
 OUTDIR=alignments
 
