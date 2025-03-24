@@ -2,8 +2,8 @@
 
 #subsample reads to keep only 10% per sample
 
-READDIR=/gpfs/projects/GenomicsCore/BGE510/subsample
-OUTDIR=QC
+READDIR=/gpfs/projects/GenomicsCore/example-rnaseq/subsample
+OUTDIR=/gpfs/projects/GenomicsCore/example-rnaseq/QC
 
 mkdir -p ${OUTDIR}
 
