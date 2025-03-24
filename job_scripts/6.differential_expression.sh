@@ -1,8 +1,9 @@
 #!/usr/bin/env bash
 
-module unload hts
+module purge
+module load slurm
 module load deseq2/1.38.0
 
-Rscript deseq2.R
+Rscript /gpfs/projects/GenomicsCore/example-rnaseq/job_scripts/deseq2.R
 
 
