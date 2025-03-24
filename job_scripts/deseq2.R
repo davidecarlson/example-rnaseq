@@ -5,9 +5,9 @@ library(GenomicFeatures)
 library(EnhancedVolcano)
 
 # read input files into memory
-samples <- read.table('/gpfs/projects/GenomicsCore/BGE510/samples.csv', header=TRUE, sep=",")
-gtf <- '/gpfs/projects/GenomicsCore/indexes/mouse_gencode_m29/gencode.vM29.annotation.gtf'
-files <- file.path('/gpfs/projects/GenomicsCore/BGE510/quant', samples$Sample, "quant.sf")
+samples <- read.table('/gpfs/projects/GenomicsCore/example-rnaseq/samples.csv', header=TRUE, sep=",")
+gtf <- '/gpfs/projects/GenomicsCore/indexes/mouse_gencode_m35/gencode.vM35.primary_assembly.annotation.gtf'
+files <- file.path('/gpfs/projects/GenomicsCore/example-rnaseq/quant', samples$Sample, "quant.sf")
 
 names(files) <- samples$Sample
 
@@ -60,7 +60,7 @@ print(summary(resOrdered))
 
 #write the results to a csv file
 write.csv(as.data.frame(resOrdered), 
-          file="/gpfs/projects/GenomicsCore/BGE510/DGE_results/WT_vs_HNF1b_results.csv")
+          file="/gpfs/projects/GenomicsCore/example-rnaseq/DGE_results/WT_vs_HNF1b_results.csv")
 
 #make volcano plot
 volc<-EnhancedVolcano(resOrdered,
@@ -76,4 +76,4 @@ ggsave('WT_vs_HNF1b_volcanoplot.pdf',
        width = 20, 
        height = 30, 
        units = 'cm',
-       path = '/gpfs/projects/GenomicsCore/BGE510/DGE_results/')
+       path = '/gpfs/projects/GenomicsCore/example-rnaseq/DGE_results/')
