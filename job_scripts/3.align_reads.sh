@@ -2,9 +2,9 @@
 
 module load rna_seq/1.0
 
-READDIR=/gpfs/projects/GenomicsCore/BGE510/QC
-INDEX=index
-OUTDIR=alignments
+READDIR=/gpfs/projects/GenomicsCore/example-rnaseq/subsample
+INDEX=/gpfs/projects/GenomicsCore/example-rnaseq/index
+OUTDIR=/gpfs/projects/GenomicsCore/example-rnaseq/alignments
 
 mkdir -p ${OUTDIR}
 

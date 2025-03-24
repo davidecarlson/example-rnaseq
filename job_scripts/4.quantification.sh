@@ -2,13 +2,14 @@
 
 module load deseq2
 
-GTF=/gpfs/projects/GenomicsCore/indexes/mouse_gencode_m29/gencode.vM29.annotation.gtf
-TRANSCRIPTOME=/gpfs/projects/GenomicsCore/indexes/mouse_gencode_m29/genome.transcripts.fa
-OUTDIR=quant
+GTF=/gpfs/projects/GenomicsCore/indexes/mouse_gencode_m35/gencode.vM35.primary_assembly.annotation.gtf
+TRANSCRIPTOME=/gpfs/projects/GenomicsCore/indexes/mouse_gencode_m35/gencode.vM35.transcripts.fa
+OUTDIR=/gpfs/projects/GenomicsCore/example-rnaseq/quant
+ALIGNMENTS=/gpfs/projects/GenomicsCore/example-rnaseq/alignments
 
 mkdir -p ${OUTDIR}
 
-for i in `ls alignments/*toTranscriptome.out.bam`; do
+for i in `ls ${ALIGNMENTS}/*toTranscriptome.out.bam`; do
 	NAME=`basename $i Aligned.toTranscriptome.out.bam`; 
 	echo Quantifying transcripts and genes for sample: ${NAME};
 	salmon \

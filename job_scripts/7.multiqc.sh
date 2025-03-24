@@ -2,5 +2,5 @@
 
 module load hts
 
-multiqc . --outdir multiqc_report
+multiqc /gpfs/projects/GenomicsCore/example-rnaseq --outdir ../multiqc_report
 
