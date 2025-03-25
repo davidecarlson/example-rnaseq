@@ -9,7 +9,7 @@
 
 module load hts
 
-OUTDIR=/gpfs/projects/GenomicsCore/example-rnaseq/multiqc_report
+OUTDIR=/gpfs/projects/GenomicsCore/example-rnaseq/output/multiqc_report
 
 multiqc \
 /gpfs/projects/GenomicsCore/example-rnaseq \
