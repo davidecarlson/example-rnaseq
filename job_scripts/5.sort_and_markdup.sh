@@ -29,3 +29,7 @@ for i in `ls ${ALIGNMENTS}/*.Aligned.out.sorted.bam`; do
 	O=${ALIGNMENTS}/${NAME}.Aligned.out.sorted.markdup.bam \
 	M=${ALIGNMENTS}/${NAME}.marked_dup_metrics.txt;
 done
+
+for i in `ls ${ALIGNMENTS}/*.Aligned.out.sorted.markdup.bam`; do
+    samtools index ${i};
+done
