@@ -15,3 +15,5 @@ The scripts in the repository will do the following:
 7. Sort, mark duplicates, and index the BAM files produced by STAR using samtools and Picard
 8. Conduct a basic differential expression analysis using DESeq2
 9. Generate a MultiQC report
+
+*Note: the code in this repository is intended for educational purposes only.  For an actual RNA-seq analysis, a standardized pipeline like [nf-core/rnaseq](https://nf-co.re/rnaseq/latest) is strongly recommended.*
