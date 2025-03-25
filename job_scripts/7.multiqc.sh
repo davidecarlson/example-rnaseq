@@ -2,5 +2,8 @@
 
 module load hts
 
-multiqc /gpfs/projects/GenomicsCore/example-rnaseq --outdir ../multiqc_report
-
+multiqc \
+/gpfs/projects/GenomicsCore/example-rnaseq \
+--outdir multiqc_report \
+--ignore "*STARpass1*" \
+--force
