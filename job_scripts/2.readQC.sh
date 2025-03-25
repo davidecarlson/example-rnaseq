@@ -1,9 +1,14 @@
 #!/usr/bin/env bash
 
-#subsample reads to keep only 10% per sample
+#SBATCH -p short-96core-shared
+#SBATCH -n 1
+#SBATCH -c 5
+#SBATCH --mem=10g
+#SBATCH --output=fastp.log
+#SBATCH -J fastp_QC
 
-READDIR=/gpfs/projects/GenomicsCore/example-rnaseq/subsample
-OUTDIR=/gpfs/projects/GenomicsCore/example-rnaseq/QC
+READDIR=/gpfs/projects/GenomicsCore/example-rnaseq/output/subsample
+OUTDIR=/gpfs/projects/GenomicsCore/example-rnaseq/output/QC
 
 mkdir -p ${OUTDIR}
 

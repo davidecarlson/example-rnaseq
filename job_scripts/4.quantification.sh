@@ -1,11 +1,18 @@
 #!/usr/bin/env bash
 
+#SBATCH -p short-96core-shared
+#SBATCH -n 1
+#SBATCH -c 12
+#SBATCH --mem=50g
+#SBATCH --output=salmon_quant.log
+#SBATCH -J salmon_quant
+
 module load deseq2
 
-GTF=/gpfs/projects/GenomicsCore/indexes/mouse_gencode_m35/gencode.vM35.primary_assembly.annotation.gtf
-TRANSCRIPTOME=/gpfs/projects/GenomicsCore/indexes/mouse_gencode_m35/gencode.vM35.transcripts.fa
-OUTDIR=/gpfs/projects/GenomicsCore/example-rnaseq/quant
-ALIGNMENTS=/gpfs/projects/GenomicsCore/example-rnaseq/alignments
+GTF=/gpfs/projects/GenomicsCore/example-rnaseq/data/reference/gencode.vM35.annotation.gtf
+TRANSCRIPTOME=/gpfs/projects/GenomicsCore/example-rnaseq/data/reference/gencode.vM35.transcripts.fa
+OUTDIR=/gpfs/projects/GenomicsCore/example-rnaseq/output/quant
+ALIGNMENTS=/gpfs/projects/GenomicsCore/example-rnaseq/output/alignments
 
 mkdir -p ${OUTDIR}
 
@@ -15,7 +22,7 @@ for i in `ls ${ALIGNMENTS}/*toTranscriptome.out.bam`; do
 	salmon \
 	quant \
 	--geneMap ${GTF} \
-	--threads 25 \
+	--threads 12 \
 	--libType A \
 	--seqBias \
 	--gcBias \
@@ -23,5 +30,3 @@ for i in `ls ${ALIGNMENTS}/*toTranscriptome.out.bam`; do
 	-a ${i} \
 	-o ${OUTDIR}/${NAME};
 done
-
-

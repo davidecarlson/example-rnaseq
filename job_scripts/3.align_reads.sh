@@ -1,10 +1,17 @@
 #!/usr/bin/env bash
 
+#SBATCH -p short-96core-shared
+#SBATCH -n 1
+#SBATCH -c 8
+#SBATCH --mem=50g
+#SBATCH --output=star_align.log
+#SBATCH -J star_align
+
 module load rna_seq/1.0
 
-READDIR=/gpfs/projects/GenomicsCore/example-rnaseq/subsample
-INDEX=/gpfs/projects/GenomicsCore/example-rnaseq/index
-OUTDIR=/gpfs/projects/GenomicsCore/example-rnaseq/alignments
+READDIR=/gpfs/projects/GenomicsCore/example-rnaseq/output/QC
+INDEX=/gpfs/projects/GenomicsCore/example-rnaseq/output/index
+OUTDIR=/gpfs/projects/GenomicsCore/example-rnaseq/output/alignments
 
 mkdir -p ${OUTDIR}
 

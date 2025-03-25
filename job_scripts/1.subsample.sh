@@ -1,9 +1,16 @@
 #!/usr/bin/env bash
 
+#SBATCH -p short-96core-shared
+#SBATCH -n 1
+#SBATCH -c 1
+#SBATCH --mem=4g
+#SBATCH --output=subsample.log
+#SBATCH -J subsample_reads
+
 #subsample reads to keep only 1 million PE reads per sample
 
-READDIR=/gpfs/projects/GenomicsCore/example-rnaseq/reads
-OUTDIR=subsample
+READDIR=/gpfs/projects/GenomicsCore/example-rnaseq/data/reads
+OUTDIR=/gpfs/projects/GenomicsCore/example-rnaseq/output/subsample
 
 mkdir -p ${OUTDIR}
 

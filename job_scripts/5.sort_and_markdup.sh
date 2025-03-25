@@ -1,8 +1,15 @@
 #!/usr/bin/env bash
 
+#SBATCH -p short-96core-shared
+#SBATCH -n 1
+#SBATCH -c 8
+#SBATCH --mem=30g
+#SBATCH --output=sort_markdup.log
+#SBATCH -J sort_markdup
+
 module load hts
 
-ALIGNMENTS=/gpfs/projects/GenomicsCore/example-rnaseq/alignments
+ALIGNMENTS=/gpfs/projects/GenomicsCore/example-rnaseq/output/alignments
 
 for i in `ls ${ALIGNMENTS}/*Aligned.out.bam`; do
 	NAME=`basename $i Aligned.out.bam`; 
