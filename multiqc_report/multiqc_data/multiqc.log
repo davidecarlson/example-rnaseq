@@ -1,6 +1,0 @@
-[2024-11-21 11:25:38,509] multiqc.core.file_search                           [INFO   ]  Search path: /gpfs/projects/GenomicsCore/BGE510
-[2024-11-21 11:25:43,047] multiqc.modules.picard.picard                      [INFO   ]  Found 6 MarkDuplicates reports
-[2024-11-21 11:25:43,056] multiqc.modules.salmon.salmon                      [INFO   ]  Found 6 meta reports
-[2024-11-21 11:25:43,056] multiqc.modules.salmon.salmon                      [INFO   ]  Found 6 fragment length distributions
-[2024-11-21 11:25:43,078] multiqc.modules.star.star                          [INFO   ]  Found 12 reports
-[2024-11-21 11:25:43,128] multiqc.modules.fastp.fastp                        [INFO   ]  Found 6 reports
